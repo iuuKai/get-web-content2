@@ -2,7 +2,7 @@
  * @Author: iuukai
  * @Date: 2023-09-11 16:50:33
  * @LastEditors: iuukai
- * @LastEditTime: 2023-09-11 22:53:53
+ * @LastEditTime: 2023-09-21 09:47:09
  * @FilePath: \node\cheerio\index.js
  * @Description:
  * @QQ/微信: 790331286
@@ -55,6 +55,5 @@ app.post('/', async (req, res, next) => {
 })
 
 app.listen(port, function () {
-	console.log(`app is listening at port ${port}`)
 	console.log(`server running @ http://${host ? host : 'localhost'}:${port}`)
 })
